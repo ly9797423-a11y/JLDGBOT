@@ -1,15 +1,7 @@
 python-telegram-bot==20.7
-aiofiles==23.2.1
-asyncio==3.4.3
-cryptography==41.0.7
-requests==2.31.0
-colorama==0.4.6
-python-dotenv==1.0.0
+python-telegram-bot[job-queue]
 pymongo==4.5.0
-redis==5.0.1
-socksio==1.0.0
-pyyaml==6.0.1
-schedule==1.2.0
-# تم إزالة psutil وإضافة بدائل بسيطة
-# telethon تم إزالته مؤقتاً لحين حل مشكلة التبعيات
-# psutil تم إزالته بسبب مشكلة البناء
+dnspython==2.4.2
+asyncio==3.4.3
+colorama==0.4.6
+aiofiles==23.2.1
